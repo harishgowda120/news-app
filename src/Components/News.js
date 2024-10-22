@@ -313,7 +313,7 @@ export class News extends Component {
           <h1 id='h1'>HeadLines</h1>
           {this.state.loading && <Loading />}
           <InfiniteScroll
-            dataLength={this.state.articles.length}
+            // dataLength={this.state.articles.length}
             next={this.fetchMoreData}
             hasMore={this.state.articles.length!==this.state.totalResult}
             loader={<Loading/>}
