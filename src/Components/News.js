@@ -670,52 +670,35 @@ export class News extends Component {
   //   }
   // };
 
-  render() {
+render() {
     return (
       <div>
         <div className="container my-3">
-          <h1 id='h1'>HeadLines</h1>
+          <h1 id='h1'>Headlines</h1>
           {this.state.loading && <Loading />}
           <div className='container'>
-          <div className="row">
-            { 
-              this.articles.map((element) => {
-                return (
-                  <div className="col-12 col-sm-6 col-md-4" key={element.url}> {/* Add a unique key */}
-                    <NewsItems
-                      title={element.title ? element.title.slice(0, 50) : "No Title Available"}
-                      description={element.description ? element.description.slice(0, 90) : "No Description Available"}
-                      imgUrl={element.urlToImage}
-                      NewsUrl={element.url}
-                    />
-                  </div>
-                );
-              })
-
-            }
+            <div className="row">
+              {
+                this.articles.map((element) => {
+                  return (
+                    <div className="col-12 col-sm-6 col-md-4" key={element.url}> {/* Add a unique key */}
+                      <NewsItems
+                        title={element.title ? element.title.slice(0, 50) : "No Title Available"}
+                        description={element.description ? element.description.slice(0, 90) : "No Description Available"}
+                        imgUrl={element.urlToImage}
+                        NewsUrl={element.url}
+                      />
+                    </div>
+                  );
+                })
+              }
+            </div>
           </div>
-          </div>
-
-          // {/* Pagination */}
-          // <div className="d-flex justify-content-between">
-          //   <button 
-          //     type="button" 
-          //     disabled={this.state.page <= 1} 
-          //     onClick={this.handlePrevClick} 
-          //     className="btn btn-dark">&larr; Previous
-          //   </button>
-          //   <button 
-          //     type="button" 
-          //     disabled={this.state.page >= Math.ceil(this.state.totalResults / 12)} 
-          //     onClick={this.handleNextClick} 
-          //     className="btn btn-dark">Next &rarr;
-          //   </button>
-          // </div>
         </div>
       </div>
     );
+}
 
-  }
 }
 
 export default News
