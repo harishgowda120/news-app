@@ -656,19 +656,19 @@ export class News extends Component {
  
 
 // Handling next and prev buttons
-  handlePrevClick = () => {
-    this.setState((prevState) => ({
-      page: Math.max(prevState.page - 1, 1) // Prevent page from going below 1
-    }), this.updateNews);
-  };
+  // handlePrevClick = () => {
+  //   this.setState((prevState) => ({
+  //     page: Math.max(prevState.page - 1, 1) // Prevent page from going below 1
+  //   }), this.updateNews);
+  // };
 
-  handleNextClick = () => {
-    if (this.state.page < Math.ceil(this.state.totalResults / 12)) {
-      this.setState((prevState) => ({
-        page: prevState.page + 1
-      }), this.updateNews);
-    }
-  };
+  // handleNextClick = () => {
+  //   if (this.state.page < Math.ceil(this.state.totalResults / 12)) {
+  //     this.setState((prevState) => ({
+  //       page: prevState.page + 1
+  //     }), this.updateNews);
+  //   }
+  // };
 
   render() {
     return (
@@ -696,21 +696,21 @@ export class News extends Component {
           </div>
           </div>
 
-          {/* Pagination */}
-          <div className="d-flex justify-content-between">
-            <button 
-              type="button" 
-              disabled={this.state.page <= 1} 
-              onClick={this.handlePrevClick} 
-              className="btn btn-dark">&larr; Previous
-            </button>
-            <button 
-              type="button" 
-              disabled={this.state.page >= Math.ceil(this.state.totalResults / 12)} 
-              onClick={this.handleNextClick} 
-              className="btn btn-dark">Next &rarr;
-            </button>
-          </div>
+          // {/* Pagination */}
+          // <div className="d-flex justify-content-between">
+          //   <button 
+          //     type="button" 
+          //     disabled={this.state.page <= 1} 
+          //     onClick={this.handlePrevClick} 
+          //     className="btn btn-dark">&larr; Previous
+          //   </button>
+          //   <button 
+          //     type="button" 
+          //     disabled={this.state.page >= Math.ceil(this.state.totalResults / 12)} 
+          //     onClick={this.handleNextClick} 
+          //     className="btn btn-dark">Next &rarr;
+          //   </button>
+          // </div>
         </div>
       </div>
     );
