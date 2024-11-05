@@ -238,7 +238,399 @@ export class News extends Component {
     "urlToImage": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F1015%2Fr1400451_1296x729_16%2D9.jpg",
     "publishedAt": "2024-10-15T02:53:00Z",
     "content": "NEW YORK -- On Thursday, while Gerrit Cole mowed down the Kansas City Royals in the New York Yankees' series-clinching Game 4 win in the American League Division Series, Carlos Rodón took mental note… [+5130 chars]"
-  }]
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Investor's Business Daily"
+    },
+    "author": "ED CARSON, Investor's Business Daily",
+    "title": "Dow Jones Futures Fall Amid Election Shifts; Big S&P 500 Winners On Tap, Nvidia To Join Dow - Investor's Business Daily",
+    "description": "The Federal Reserve meets this week. Nvidia will replace Intel in the Dow Jones.",
+    "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-election-sp-500-winners-nvidia-to-join-dow-intel/",
+    "urlToImage": "https://www.investors.com/wp-content/uploads/2024/11/Stock-AtPolls-Shutt.jpg",
+    "publishedAt": "2024-11-04T00:37:00Z",
+    "content": "Dow Jones futures fell slightly Sunday evening, along with S&amp;P 500 futures and Nasdaq futures, with shifting bets on the presidential election in focus. The next Federal Reserve meeting and a con… [+8793 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "CNBC"
+    },
+    "author": "Samantha Subin",
+    "title": "Stock futures inch lower as Wall Street readies for U.S. presidential election: Live updates - CNBC",
+    "description": "Stock futures slipped in overnight trading Sunday as investors geared up for the highly-anticipated U.S. presidential election.",
+    "url": "https://www.cnbc.com/2024/11/03/stock-market-today-live-updates.html",
+    "urlToImage": "https://image.cnbcfm.com/api/v1/image/108039090-1727283086007-NYSE_Traders-OB-Photo-ALR-20240925-Press-10-2.jpg?v=1727283173&w=1920&h=1080",
+    "publishedAt": "2024-11-03T23:33:00Z",
+    "content": "Stock futures dipped in overnight trading Sunday as investors geared up for the highly-anticipated U.S. presidential election.\r\nFutures connected to the Dow Jones Industrial Average lost 0.2%, or 90 … [+2339 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Investor's Business Daily"
+    },
+    "author": "ED CARSON, Investor's Business Daily",
+    "title": "Nuclear Power Stocks Fall On This Regulatory Move With Earnings Due - Investor's Business Daily",
+    "description": "A Talon nuclear plant wanted to supply more power to an Amazon data center.",
+    "url": "https://www.investors.com/news/nuclear-power-stocks-skid-on-ferc-regulatory-move/",
+    "urlToImage": "https://www.investors.com/wp-content/uploads/2018/10/stock-nuclear-power-21-adobe.jpg",
+    "publishedAt": "2024-11-03T21:42:00Z",
+    "content": "Energy regulators on Friday rejected an amended interconnection agreement for an Amazon (AMZN) data center with a nuclear power plant run by Talen Energy (TLN).  Talen stock sold off Friday night whi… [+2451 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "ForexLive"
+    },
+    "author": "Eamonn Sheridan",
+    "title": "USD weaker to open the new forex week - election polls the culprit - ForexLive",
+    "description": "There are only three certainties in life: . death taxes someone, somewhere, will have a neat and simple narrative to explain all movements in financial markets Here is my contribution to #3 today -...",
+    "url": "https://www.forexlive.com/news/usd-weaker-to-open-the-new-forex-week-election-polls-the-culprit-20241103/",
+    "urlToImage": "https://images.forexlive.com/images/usd%20iowa%2004%20November%202024_id_5f85e957-a1f8-4955-9977-dfa4d573a800_size975.jpg",
+    "publishedAt": "2024-11-03T21:27:00Z",
+    "content": "High risk warning:\r\nForeign exchange trading carries a high level of risk that may not be suitable for all investors. Leverage creates additional risk and loss exposure. Before you decide to trade fo… [+2129 chars]"
+  },
+  {
+    "source": {
+      "id": "the-wall-street-journal",
+      "name": "The Wall Street Journal"
+    },
+    "author": "Summer Said, Benoit Faucon",
+    "title": "Exclusive | Iran Tells Region ‘Strong and Complex’ Attack Coming on Israel - WSJ - The Wall Street Journal",
+    "description": "Tehran has warned diplomats that it is planning to use more powerful warheads and other weapons",
+    "url": "https://www.wsj.com/world/middle-east/iran-tells-region-strong-and-complex-attack-coming-on-israel-2804179f",
+    "urlToImage": "https://images.wsj.net/im-74437664/social",
+    "publishedAt": "2024-11-03T21:21:00Z",
+    "content": null
+  },
+  {
+    "source": {
+      "id": "bloomberg",
+      "name": "Bloomberg"
+    },
+    "author": null,
+    "title": "Musk’s Close Ties With Trump Give Xi a Friend With Influence - Bloomberg",
+    "description": "The emergence of Elon Musk as one of Donald Trump’s top campaign donors bodes well for Xi Jinping if the former US president wins back the White House.",
+    "url": "https://www.bloomberg.com/news/articles/2024-11-03/musk-s-close-ties-with-trump-give-xi-a-friend-with-influence",
+    "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iOjr.QlPsgVc/v1/1200x800.jpg",
+    "publishedAt": "2024-11-03T21:00:01Z",
+    "content": "The emergence of Elon Musk as one of Donald Trumps top campaign donors bodes well for Xi Jinping if the former US president wins back the White House. \r\nThe billionaire chief executive officer of Tes… [+341 chars]"
+  },
+  {
+    "source": {
+      "id": "bloomberg",
+      "name": "Bloomberg"
+    },
+    "author": "Katherine Burton, Liz Capo McCormick",
+    "title": "Traders Prepare for a Long, Volatile Election Night - Bloomberg",
+    "description": "As the results trickle in, some highly caffeinated investors will be watching margins and tweaking their wagers until sunrise.",
+    "url": "https://www.bloomberg.com/news/features/2024-11-03/how-traders-are-preparing-to-watch-2024-election-night-results",
+    "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iQQ_hPrk9Kqo/v0/1200x796.jpg",
+    "publishedAt": "2024-11-03T20:00:27Z",
+    "content": "For the big money on Wall Street, theres the prep thats bound to come with a coin-toss election that could dramatically swing policy. Trading desks staffed through the night, with teams in Hong Kong … [+432 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "CoinDesk"
+    },
+    "author": "Omkar Godbole",
+    "title": "Bitcoin Volatility Jumps to 3-Month High Ahead of U.S. Election - CoinDesk",
+    "description": "Investors in crypto and traditional markets bet that impending U.S. presidential election will breed price volatility.",
+    "url": "https://www.coindesk.com/markets/2024/11/03/bitcoin-volatility-jumps-to-3-month-high-ahead-of-us-election/",
+    "urlToImage": "https://www.coindesk.com/resizer/PLjteK63kj-wWQQmw-PweaqEN70=/1200x628/center/middle/cloudfront-us-east-1.images.arcpublishing.com/coindesk/UJRSTOUC6BALHDVCRZONIH2MGY.png",
+    "publishedAt": "2024-11-03T19:50:00Z",
+    "content": "Please note that ourprivacy policy,terms of use,cookies, anddo not sell my personal informationhave been updated.\r\nCoinDesk is anaward-winningmedia outlet that covers the cryptocurrency industry. Its… [+457 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Decrypt"
+    },
+    "author": "Andrew Hayward",
+    "title": "Bitcoin Slips as Trump's Odds Plummet, Pushing Crypto Liquidations Above $315M - Decrypt",
+    "description": "Polymarket and Kalshi users are hedging their bets on Donald Trump, with Bitcoin falling below $68,000 and liquidations piling up.",
+    "url": "https://decrypt.co/289824/bitcoin-slips-trump-odds-plummet-liquidations",
+    "urlToImage": "https://cdn.decrypt.co/resize/1024/height/512/wp-content/uploads/2024/07/trump-bitcoin-nashville-gID_7.jpg",
+    "publishedAt": "2024-11-03T19:17:47Z",
+    "content": "After a white-hot week for Bitcoin in which the leading cryptocurrency came $175 away from its all-time high price, BTC momentum is cooling again, with its price dipping as self-proclaimed crypto can… [+3298 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Fox Business"
+    },
+    "author": "Chris Pandolfo",
+    "title": "El-Erian: Interest rates, inflation moving in right direction, but lower prices 'not going to happen' - Fox Business",
+    "description": "Allianz chief economic adviser Mohamed El-Erian warned that even though inflation has cooled significantly, prices consumers face are unlikely to decrease.",
+    "url": "https://www.foxbusiness.com/economy/el-erian-interest-rates-inflation-moving-right-direction-lower-prices-not-going-happen",
+    "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/10/0/0/grocery-store-shopper.jpg?ve=1&tl=1",
+    "publishedAt": "2024-11-03T19:04:00Z",
+    "content": "A prominent economist and educator is warning that Americans squeezed by the highest inflation rates in four decades are unlikely to see prices come down in the future.\r\nAllianz chief economic advise… [+3723 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "New York Post"
+    },
+    "author": "Peter Senzamici",
+    "title": "Worker openly ran ‘rape room,’ assaulted employees in clothing company French Connection’s NYC factory: suit - New York Post ",
+    "description": "A sicko textile worker ran a “rape room” at the at the Queens factory of a major British clothing brand, French Connection, where he openly preyed on female colleagues, a new lawsuit claims.",
+    "url": "https://nypost.com/2024/11/03/us-news/worker-openly-ran-rape-room-assaulted-employees-in-clothing-company-french-connections-nyc-factory-suit/",
+    "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/11/92972956.jpg?quality=75&strip=all&w=1024",
+    "publishedAt": "2024-11-03T18:39:00Z",
+    "content": "A sicko textile worker ran a rape room at the Queens factory of a major British clothing brand where he openly preyed on female colleagues, a shocking new lawsuit claims.\r\nGreenpoint resident Aleksan… [+8733 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Barron's"
+    },
+    "author": "Barron's",
+    "title": "Boeing Had a Big Week. This One Is Even Bigger. - Barron's",
+    "description": null,
+    "url": "https://www.barrons.com/articles/boeing-strike-contract-vote-workers-cd298ea1",
+    "urlToImage": null,
+    "publishedAt": "2024-11-03T18:09:00Z",
+    "content": null
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Newser"
+    },
+    "author": "Gina Carey",
+    "title": "2025's Job Forecast Looks Best in These States - Newser",
+    "description": "New Hampshire tops WalletHub's list, while West Virginia comes in last",
+    "url": "https://www.newser.com/story/358655/best-worst-states-for-jobs-in-2025.html",
+    "urlToImage": "https://img1-azrcdn.newser.com/image/1569588-12-20241103122132.jpeg",
+    "publishedAt": "2024-11-03T18:00:00Z",
+    "content": "Since the end of the pandemic, employment in the US has been in a state of flux, swinging between strong jobs reports to high rates of continuing unemployment claims. But according to WalletHub, key … [+529 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Fox Business"
+    },
+    "author": "Daniella Genovese",
+    "title": "The new Starbucks strategy: Will CEO Brian Niccol’s plan work? - Fox Business",
+    "description": "Starbucks CEO Brian Niccol wants to return the company to its coffeehouse roots. Analysts are optimistic, though they say the company will face near-term headwinds.",
+    "url": "https://www.foxbusiness.com/markets/new-starbucks-strategy-ceo-brian-niccols-plan-work",
+    "urlToImage": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2023/11/0/0/Starbucks-worker-2.jpg?ve=1&tl=1",
+    "publishedAt": "2024-11-03T17:20:00Z",
+    "content": "Starbucks' new chief executive announced a series of changes this week aimed at drawing back customers as the company navigates unionization pressures, declining foot traffic, and frequent leadership… [+4839 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "MarketWatch"
+    },
+    "author": "Joseph Adinolfi",
+    "title": "Harris and Trump command market’s attention — but Powell may steal the spotlight - MarketWatch",
+    "description": "An uncertain election outcome could even open the door for the central bank to cut interest rates more aggressively, some say",
+    "url": "https://www.marketwatch.com/story/harris-and-trump-command-the-markets-attention-but-jerome-powell-may-steal-the-spotlight-89207883",
+    "urlToImage": "https://images.mktw.net/im-25430778/social",
+    "publishedAt": "2024-11-03T17:01:00Z",
+    "content": "Investors are anxious about the possibility that it could take days, or even weeks, for the results of this weeks U.S. presidential and congressional races to be known. \r\nBut Tuesdays vote is hardly … [+231 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "The Daily Dot"
+    },
+    "author": "Stacy Fernandez",
+    "title": "‘They did her so dirty’: Woman orders pink heels from Temu. Then she notices something upon a closer look - The Daily Dot",
+    "description": "This Temu customer ordered a pair of velvety pink heels. She was immediately put off by what was in the package.",
+    "url": "https://www.dailydot.com/news/temu-pink-shoes-fail/",
+    "urlToImage": "https://uploads.dailydot.com/2024/11/Temu-Sandals.jpg?auto=compress&fm=pjpg",
+    "publishedAt": "2024-11-03T17:00:00Z",
+    "content": "This Temu customer ordered a pair of shoes and was immediately put off by what was in the package.\r\nTemu is an online retailer known for its wide range of productsselling everything from home goods t… [+3135 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Wccftech"
+    },
+    "author": "Muhammad Zuhair",
+    "title": "US Policymakers Are Reportedly Open To Potential Intel “Merger Deal”, As They Explore Options To Pull Team Blue Out Of The Danger - Wccftech",
+    "description": "Intel's financial troubles have started bothering the US, as they are now exploring options for recovery, including a potential merger.",
+    "url": "https://wccftech.com/us-policymakers-open-to-potential-intel-merger-deal-explore-options-to-pull-team-blue-out-of-danger/",
+    "urlToImage": "https://cdn.wccftech.com/wp-content/uploads/2024/11/Intel-728x485-1.jpg",
+    "publishedAt": "2024-11-03T16:40:00Z",
+    "content": "Intel's financial troubles have started bothering the US Commerce Department, which is now reportedly exploring options for recovery, including a potential merger.\r\nIntel's chip business is a key ele… [+2424 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "Motley Fool"
+    },
+    "author": "James Brumley",
+    "title": "Is It Time to Buy October's Worst-Performing S&P 500 Stocks? - The Motley Fool",
+    "description": "These four poorly performing tickers are hinting at broader, bigger-picture problems that investors will want to altogether avoid.",
+    "url": "https://www.fool.com/investing/2024/11/03/is-it-time-to-buy-octobers-worst-performing-sp-500/",
+    "urlToImage": "https://g.foolcdn.com/editorial/images/796224/investor-reviewing-a-stock-portfolio.jpg",
+    "publishedAt": "2024-11-03T16:39:30Z",
+    "content": "These four poorly performing tickers are hinting at broader, bigger-picture problems that investors will want to altogether avoid.Generally speaking, when you buy a stock doesn't really matter if it'… [+6482 chars]"
+  },
+  {
+    "source": {
+      "id": null,
+      "name": "WGN TV Chicago"
+    },
+    "author": "Michael Johnson",
+    "title": "Revolution Brewing to close Logan Square brewpub in December, reports Eater Chicago - WGN TV Chicago",
+    "description": "CHICAGO — The state’s largest independent craft brewery will soon be consolidating from two to one Chicago location. Revolution Brewing will close its brewpub in Logan Square on Saturday, Dec. 14, Eater Chicago reported this weekend. The Logan Square brewpub,…",
+    "url": "https://wgntv.com/news/chicago-news/revolution-brewing-to-close-logan-square-brewpub-in-december-reports-eater-chicago/",
+    "urlToImage": "https://wgntv.com/wp-content/uploads/sites/5/2024/11/snapshot-2024-11-03T100344.227-1.jpg?w=1280",
+    "publishedAt": "2024-11-03T16:20:30Z",
+    "content": "CHICAGO The state’s largest independent craft brewery will soon be consolidating from two to one Chicago location.\r\nRevolution Brewing will close its brewpub in Logan Square on Saturday, Dec. 14, Eat… [+784 chars]"
+  },
+  {
+    "source": {
+      "id": "cnn",
+      "name": "CNN"
+    },
+    "author": "",
+    "title": "Watch gravity-defining robot scale Texas high-rise - CNN",
+    "description": "",
+    "url": "https://www.cnn.com/2024/11/03/business/video/ai-robot-window-washing-building-affil-dnt-digvid",
+    "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/ktvt.jpg?c=16x9&q=w_800,c_fill",
+    "publishedAt": "2024-11-03T16:17:26Z",
+    "content": null
+  },
+  {
+    "source": {
+      "id": "techcrunch",
+      "name": "TechCrunch"
+    },
+    "author": "Lauren Forristal",
+    "title": "Bye-bye bots: Altera's game-playing AI agents get backing from Eric Schmidt | TechCrunch",
+    "description": "Autonomous, AI-based players are coming to a gaming experience near you, and a new startup, Altera, is joining the fray to build this new guard of AI Research company Altera raised $9 million to build AI agents that can play video games alongside other player…",
+    "url": "https://techcrunch.com/2024/05/08/bye-bye-bots-alteras-game-playing-ai-agents-get-backing-from-eric-schmidt/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/Minecraft-keyart.jpg?resize=1200,720",
+    "publishedAt": "2024-05-08T15:14:57Z",
+    "content": "Autonomous, AI-based players are coming to a gaming experience near you, and a new startup, Altera, is joining the fray to build this new guard of AI agents.\r\nThe company announced Wednesday that it … [+6416 chars]"
+  },
+  {
+    "source": {
+      "id": "techcrunch",
+      "name": "TechCrunch"
+    },
+    "author": "Alex Wilhelm and Theresa Loconsolo",
+    "title": "$450M for Noname, two billion-dollar rounds, and good news for crypto startups | TechCrunch",
+    "description": "This morning on Equity, not only do we have good news for crypto founders, we're also digging into Akamai spending $450 million for API security firm Noname, and billion dollar deals from Wiz and Wayve.",
+    "url": "https://techcrunch.com/2024/05/08/450m-for-noname-two-billion-dollar-rounds-and-good-news-for-crypto-startups/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/07/GettyImages-942480316.jpg?resize=1200,835",
+    "publishedAt": "2024-05-08T15:01:51Z",
+    "content": "Good news, crypto founders: Venture capital activity is picking up in your sector after falling to multi-year lows in late 2023. Put another way, venture folks appear more web3-bullish than before, e… [+1599 chars]"
+  },
+  {
+    "source": {
+      "id": "techcrunch",
+      "name": "TechCrunch"
+    },
+    "author": "Alex Wilhelm",
+    "title": "Watch: When did iPads get as expensive as MacBooks?",
+    "description": "Would you switch out your MacBook for an iPad with an M4 chip and OLED display? With the increase in price, Apple seems to be arguing these are comparable but we’re curious to see if consumers will make the change.",
+    "url": "https://techcrunch.com/2024/05/08/techcrunch-minute-when-did-ipads-get-as-expensive-as-macbooks/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/ipad-noplay.png?resize=1200,675",
+    "publishedAt": "2024-05-08T14:52:26Z",
+    "content": "Apple’s iPad event had a lot to like. New iPads with new chips and new sizes, a new Apple Pencil, and even some software updates. If you are a big fan of Apple hardware, well, it was probably a good … [+1385 chars]"
+  },
+  {
+    "source": {
+      "id": "techcrunch",
+      "name": "TechCrunch"
+    },
+    "author": "Rebecca Bellan",
+    "title": "Uber promises member exclusives as Uber One passes $1B run-rate | TechCrunch",
+    "description": "Uber plans to deliver more perks to Uber One members, like member-exclusive events, in a bid to gain more revenue through subscriptions.  “You will see",
+    "url": "https://techcrunch.com/2024/05/08/uber-promises-member-exclusives-as-uber-one-passes-1b-run-rate/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2023/05/GettyImages-1142304853-a.jpg?resize=1200,675",
+    "publishedAt": "2024-05-08T14:41:36Z",
+    "content": "Uber plans to deliver more perks to Uber One members, like member-exclusive events, in a bid to gain more revenue through subscriptions. \r\nYou will see more member-exclusives coming up where members … [+4676 chars]"
+  },
+  {
+    "source": {
+      "id": "techcrunch",
+      "name": "TechCrunch"
+    },
+    "author": "Mike Butcher",
+    "title": "Checkfirst raises $1.5M pre-seed, applying AI to remote inspections and audits | TechCrunch",
+    "description": "Checkfirst enables businesses to schedule inspectors based on geographical location and qualifications, in addition to allowing for remote inspections.",
+    "url": "https://techcrunch.com/2024/05/08/checkfirst-raises-1-5m-pre-seed-applying-ai-to-remote-inspections-and-audits/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/Checkfirst-team.jpg?w=960",
+    "publishedAt": "2024-05-08T13:02:12Z",
+    "content": "Weve all seen them. The inspector with a clipboard, walking around a building, ticking off the last time the fire extinguishers were checked, or if all the lights are working. They work in the TICC (… [+3279 chars]"
+  },
+  {
+    "source": {
+      "id": "techcrunch",
+      "name": "TechCrunch"
+    },
+    "author": "Paul Sawers",
+    "title": "UK challenger bank Monzo nabs another $190M as US expansion beckons | TechCrunch",
+    "description": "Monzo has raised another $190 million, as the challenger bank looks to expand its presence internationally — particularly in the U.S.",
+    "url": "https://techcrunch.com/2024/05/08/uk-challenger-bank-monzo-nabs-another-190m-at-5-2b-valuation/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/GettyImages-1259121938-e1715164252704.jpg?resize=1200,676",
+    "publishedAt": "2024-05-08T12:34:05Z",
+    "content": "Monzo has raised another £150 million ($190 million), as the challenger bank looks to expand its presence internationally particularly in the U.S.\r\nThe new round comes just two months after Monzo rai… [+1960 chars]"
+  },
+  {
+    "source": {
+      "id": "techcrunch",
+      "name": "TechCrunch"
+    },
+    "author": "Brian Heater",
+    "title": "iRobot names former Timex head Gary Cohen as CEO | TechCrunch",
+    "description": "iRobot Tuesday announced the successor to longtime CEO, Colin Angle. Gary Cohen, who previous held chief executive role at Timex and Qualitor Automotive,",
+    "url": "https://techcrunch.com/2024/05/08/irobot-names-former-timex-head-gary-cohen-as-ceo/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/Screenshot-2024-05-08-at-7.19.50 AM.jpg?resize=1200,919",
+    "publishedAt": "2024-05-08T12:22:30Z",
+    "content": "iRobot Tuesday announced the successor to longtime CEO, Colin Angle. Gary Cohen, who previous held chief executive role at Timex and Qualitor Automotive, will be heading up the company, marking a maj… [+2120 chars]"
+  },
+  {
+    "source": {
+      "id": "techcrunch",
+      "name": "TechCrunch"
+    },
+    "author": "Devin Coldewey",
+    "title": "Google Deepmind debuts huge AlphaFold update and free proteomics-as-a-service web app | TechCrunch",
+    "description": "Google Deepmind has taken the wraps off a new version AlphaFold, their transformative machine learning model that predicts the shape and behavior of",
+    "url": "https://techcrunch.com/2024/05/08/google-deepmind-debuts-huge-alphafold-update-and-free-proteomics-as-a-service-web-app/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/alphafold-3-deepmind.jpg?resize=1200,675",
+    "publishedAt": "2024-05-07T22:10:14Z",
+    "content": "Google Deepmind has taken the wraps off a new version AlphaFold, their transformative machine learning model that predicts the shape and behavior of proteins. AlphaFold 3 is not only more accurate, b… [+7069 chars]"
+  },
+  {
+    "source": {
+      "id": "techcrunch",
+      "name": "TechCrunch"
+    },
+    "author": "Tim De Chant",
+    "title": "Mycocycle uses mushrooms to upcycle old tires and construction waste | TechCrunch",
+    "description": "The startup's fungi use their mycelium to consume oil-based rubbers and plastics, creating new bio-based materials in the process.",
+    "url": "https://techcrunch.com/2024/05/08/mycocycle-uses-mushrooms-to-upcycle-old-tires-and-construction-waste/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/GettyImages-1350655821.jpeg?resize=1200,796",
+    "publishedAt": "2024-05-07T18:07:09Z",
+    "content": "Usually, when something starts to rot, it gets pitched in the trash. But Joanne Rodriguez wants to turn the concept of rot on its head by growing fungus on trash to turn it into something better.\r\nWe… [+4229 chars]"
+  },
+  {
+    "source": {
+      "id": "techcrunch",
+      "name": "TechCrunch"
+    },
+    "author": "Kyle Wiggers",
+    "title": "Controversial drone company Xtend leans into defense with new $40M round | TechCrunch",
+    "description": "Xtend, a drone company heavily involved with defense customers, has raised a new round of capital to expand its operations.",
+    "url": "https://techcrunch.com/2024/05/08/controversial-drone-company-xtend-leans-into-defense/",
+    "urlToImage": "https://techcrunch.com/wp-content/uploads/2024/05/wildfire_drone_web.jpg?w=900",
+    "publishedAt": "2024-05-07T18:01:34Z",
+    "content": "Close to a decade ago, brothers Aviv and Matteo Shapira co-founded Replay, a company that created a video format for 360-degree replays — the sorts of replays that have become part and parcel of majo… [+5398 chars]"
+  }
+]
+
 
   static defaultProps = {
     country: "us",
@@ -261,22 +653,22 @@ export class News extends Component {
     }
   }
 
+ 
 
+// Handling next and prev buttons
+  handlePrevClick = () => {
+    this.setState((prevState) => ({
+      page: Math.max(prevState.page - 1, 1) // Prevent page from going below 1
+    }), this.updateNews);
+  };
 
-  //handling next and prev buttons
-  handlePrevClick = async () => {
-   this.updateNews();
-   this.setState({page:this.state.page-1});
-  }
-
-  handleNextClick = async () => {
-    if (this.state.page + 1 > Math.ceil(this.state.totalResult / 12)) {
-
-    } else {
-      this.updateNews();
-      this.setState({page:this.state.page+1});
+  handleNextClick = () => {
+    if (this.state.page < Math.ceil(this.state.totalResults / 12)) {
+      this.setState((prevState) => ({
+        page: prevState.page + 1
+      }), this.updateNews);
     }
-  }
+  };
 
   render() {
     return (
@@ -284,7 +676,6 @@ export class News extends Component {
         <div className="container my-3">
           <h1 id='h1'>HeadLines</h1>
           {this.state.loading && <Loading />}
-        
           <div className='container'>
           <div className="row">
             { 
@@ -304,10 +695,21 @@ export class News extends Component {
             }
           </div>
           </div>
-          {/* //pagination */}
+
+          {/* Pagination */}
           <div className="d-flex justify-content-between">
-            <button type="button" disabled={this.state.page <= 1} onClick={this.handlePrevClick} className="btn btn-dark">&larr; Previous</button>
-            <button type="button" disabled={!(Array.isArray(this.state.articles) && this.state.articles.length > 0)} onClick={this.handleNextClick} className="btn btn-dark">Next &rarr;</button>
+            <button 
+              type="button" 
+              disabled={this.state.page <= 1} 
+              onClick={this.handlePrevClick} 
+              className="btn btn-dark">&larr; Previous
+            </button>
+            <button 
+              type="button" 
+              disabled={this.state.page >= Math.ceil(this.state.totalResults / 12)} 
+              onClick={this.handleNextClick} 
+              className="btn btn-dark">Next &rarr;
+            </button>
           </div>
         </div>
       </div>
