@@ -22,6 +22,7 @@ export class News extends Component {
   async updateNews(page) {
     this.setState({ loading: true });
     const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=e80f488a07c54ffc88ac8a0d4c3e53ea&page=${page}&pageSize=${this.props.pageSize}`;
+
     
     try {
       const data = await fetch(url);
@@ -79,48 +80,54 @@ export class News extends Component {
     }
   };
 
-  render() {
+ render() {
     return (
-      <div className="container my-3">
-        <h1 className="text-center">Headlines</h1>
+        <div className="container my-3">
+            <h1 className="text-center">Headlines</h1>
 
-        {this.state.loading && <Loading />}
+            {this.state.loading && <Loading />}
 
-        <div className="row">
-          {this.state.articles.map((element) => (
-            <div className="col-md-4" key={element.url}>
-              <NewsItems
-                title={element.title ? element.title.slice(0, 50) : "No Title Available"}
-                description={element.description ? element.description.slice(0, 90) : "No Description Available"}
-                imgUrl={element.urlToImage}
-                NewsUrl={element.url}
-              />
+            <div className="row">
+                {/* Ensure articles is always an array before mapping */}
+                {(Array.isArray(this.state.articles) && this.state.articles.length > 0) ? (
+                    this.state.articles.map((element) => (
+                        <div className="col-md-4" key={element.url}>
+                            <NewsItems
+                                title={element.title ? element.title.slice(0, 50) : "No Title Available"}
+                                description={element.description ? element.description.slice(0, 90) : "No Description Available"}
+                                imgUrl={element.urlToImage}
+                                NewsUrl={element.url}
+                            />
+                        </div>
+                    ))
+                ) : (
+                    <div>No articles available</div> // Display message if no articles
+                )}
             </div>
-          ))}
-        </div>
 
-        {/* Pagination */}
-        <div className="d-flex justify-content-between my-4">
-          <button
-            type="button"
-            disabled={this.state.page <= 1}
-            onClick={this.handlePrevClick}
-            className="btn btn-dark"
-          >
-            &larr; Previous
-          </button>
-          <button
-            type="button"
-            disabled={this.state.page >= Math.ceil(this.state.totalResults / this.props.pageSize)}
-            onClick={this.handleNextClick}
-            className="btn btn-dark"
-          >
-            Next &rarr;
-          </button>
+            {/* Pagination */}
+            <div className="d-flex justify-content-between my-4">
+                <button
+                    type="button"
+                    disabled={this.state.page <= 1}
+                    onClick={this.handlePrevClick}
+                    className="btn btn-dark"
+                >
+                    &larr; Previous
+                </button>
+                <button
+                    type="button"
+                    disabled={this.state.page >= Math.ceil(this.state.totalResults / this.props.pageSize)}
+                    onClick={this.handleNextClick}
+                    className="btn btn-dark"
+                >
+                    Next &rarr;
+                </button>
+            </div>
         </div>
-      </div>
     );
-  }
+}
+
 }
 
 export default News;
