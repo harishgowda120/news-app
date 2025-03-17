@@ -706,7 +706,7 @@ export class News extends Component {
 
           <div className='container'>
             <div className="row">
-              {this.state.articles &&
+              
                 this.state.articles.map((element, index) => (
                   <div className="col-12 col-sm-6 col-md-4" key={element.url || index}>
                     <NewsItems
@@ -716,10 +716,9 @@ export class News extends Component {
                       NewsUrl={element.url || "#"}
                     />
                   </div>
-                ))}
+                ))
             </div>
           </div>
-          {/* </InfiniteScroll> */}
 
           {/* //pagination */}
           <div className="d-flex justify-content-between">
