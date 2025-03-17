@@ -22,13 +22,13 @@ export class News extends Component {
     try {
       this.setState({ loading: true });
 
-      const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=940d1438a9c7418cbce23e208dea12de&page=${page}&pageSize=12`;
+      const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&page=${page}&pageSize=12`;
 
       const response = await fetch(url, {
+        method: "GET",
         headers: {
-          "Upgrade-Insecure-Requests": "1",
-          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
-        }
+          "X-Api-Key": "940d1438a9c7418cbce23e208dea12de", 
+        },
       });
 
       if (!response.ok) {
@@ -74,29 +74,36 @@ export class News extends Component {
   render() {
     return (
       <div className="container my-3">
-        <h1 id="h1">Headlines</h1>
+        <h1 className="text-center">Top Headlines</h1>
+
+        {/* Show Loading Spinner */}
         {this.state.loading && <Loading />}
 
         <div className="row">
           {this.state.articles.length > 0 ? (
             this.state.articles.map((element, index) => (
-              <div className="col-12 col-sm-6 col-md-4" key={element.url || index}>
+              <div className="col-12 col-sm-6 col-md-4 my-2" key={element.url || index}>
                 <NewsItems
-                  title={element.title ? element.title.slice(0, 50) : "No Title Available"}
-                  description={element.description ? element.description.slice(0, 90) : "No Description Available"}
+                  title={element.title || "No Title Available"}
+                  description={element.description || "No Description Available"}
                   imgUrl={element.urlToImage || "https://via.placeholder.com/150"}
                   NewsUrl={element.url || "#"}
                 />
               </div>
             ))
           ) : (
-            <p className="text-center">No articles found.</p>
+            !this.state.loading && <p className="text-center">No news articles found.</p>
           )}
         </div>
 
-        {/* Pagination */}
-        <div className="d-flex justify-content-between">
-          <button type="button" disabled={this.state.page <= 1} onClick={this.handlePrevClick} className="btn btn-dark">
+        {/* Pagination Buttons */}
+        <div className="d-flex justify-content-between my-3">
+          <button
+            type="button"
+            disabled={this.state.page <= 1}
+            onClick={this.handlePrevClick}
+            className="btn btn-dark"
+          >
             &larr; Previous
           </button>
           <button
