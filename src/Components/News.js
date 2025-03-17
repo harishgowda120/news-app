@@ -24,7 +24,7 @@ export class News extends Component {
       this.setState({ loading: true });
 
       // Use environment variable for API key
-      const API_KEY = "e80f488a07c54ffc88ac8a0d4c3e53ea";
+      const API_KEY = "940d1438a9c7418cbce23e208dea12de";
       const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${API_KEY}&page=${this.state.page}&pageSize=12`;
 
       const response = await fetch(url);
@@ -54,7 +54,7 @@ export class News extends Component {
     try {
       this.setState({ page: this.state.page + 1 });
 
-      const API_KEY = "e80f488a07c54ffc88ac8a0d4c3e53ea";
+      const API_KEY = "940d1438a9c7418cbce23e208dea12de";
       const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${API_KEY}&page=${this.state.page + 1}&pageSize=12`;
 
       const response = await fetch(url);
