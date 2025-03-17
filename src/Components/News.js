@@ -710,18 +710,19 @@ export class News extends Component {
             loader={<Loading/>}
           > */}
           <div className='container'>
-          <div className="row">
-            { 
-              this.state.articles.map((element) => {
-                return (
-                  <div className="col-12 col-sm-6 col-md-4" key={element.url}> {/* Add a unique key */}
-                    <NewsItems
-                      title={element.title ? element.title.slice(0, 50) : "No Title Available"}
-                      description={element.description ? element.description.slice(0, 90) : "No Description Available"}
-                      imgUrl={element.urlToImage}
-                      NewsUrl={element.url}
-                    />
-                  </div>
+         <div className="row">
+  {this.state.articles &&
+    this.state.articles.map((element, index) => (
+      <div className="col-12 col-sm-6 col-md-4" key={element.url || index}>
+        <NewsItems
+          title={element.title ? element.title.slice(0, 50) : "No Title Available"}
+          description={element.description ? element.description.slice(0, 90) : "No Description Available"}
+          imgUrl={element.urlToImage || "https://via.placeholder.com/150"}
+          NewsUrl={element.url || "#"}
+        />
+      </div>
+    ))}
+</div>
                 );
               })
 
