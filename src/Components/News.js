@@ -703,31 +703,21 @@ export class News extends Component {
         <div className="container my-3">
           <h1 id='h1'>HeadLines</h1>
           {this.state.loading && <Loading />}
-          {/* <InfiniteScroll
-            // dataLength={this.state.articles.length}
-            next={this.fetchMoreData}
-            hasMore={this.state.articles.length!==this.state.totalResult}
-            loader={<Loading/>}
-          > */}
-          <div className='container'>
-         <div className="row">
-  {this.state.articles &&
-    this.state.articles.map((element, index) => (
-      <div className="col-12 col-sm-6 col-md-4" key={element.url || index}>
-        <NewsItems
-          title={element.title ? element.title.slice(0, 50) : "No Title Available"}
-          description={element.description ? element.description.slice(0, 90) : "No Description Available"}
-          imgUrl={element.urlToImage || "https://via.placeholder.com/150"}
-          NewsUrl={element.url || "#"}
-        />
-      </div>
-    ))}
-</div>
-                );
-              })
 
-            }
-          </div>
+          <div className='container'>
+            <div className="row">
+              {this.state.articles &&
+                this.state.articles.map((element, index) => (
+                  <div className="col-12 col-sm-6 col-md-4" key={element.url || index}>
+                    <NewsItems
+                      title={element.title ? element.title.slice(0, 50) : "No Title Available"}
+                      description={element.description ? element.description.slice(0, 90) : "No Description Available"}
+                      imgUrl={element.urlToImage || "https://via.placeholder.com/150"}
+                      NewsUrl={element.url || "#"}
+                    />
+                  </div>
+                ))}
+            </div>
           </div>
           {/* </InfiniteScroll> */}
 
@@ -742,5 +732,6 @@ export class News extends Component {
 
   }
 }
+
 
 export default News
